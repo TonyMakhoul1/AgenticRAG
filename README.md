@@ -166,12 +166,6 @@ Before you begin, ensure you have the following installed:
 - **Git** (for cloning the repository)
 - **Groq API Key** ([Get one here](https://console.groq.com/))
 
-### System Requirements
-
-- **RAM**: Minimum 4GB (8GB+ recommended)
-- **Storage**: At least 5GB free space
-- **OS**: Linux, macOS, or Windows with WSL
-
 ---
 
 ## 🚀 Installation
