@@ -748,3 +748,14 @@ When reporting bugs, please include:
 - 📡 Real-time collaboration features
 
 ---
+
+## 👨‍💻 Author
+
+Tony Makhoul – Computer Engineering Student, AI Engineer
+
+📧 Contact: tmakhoul2002@gmail.com
+
+🔗 [LinkedIn](https://www.linkedin.com/in/tony-makhoul-05b6b7243)  
+
+🔗 [GitHub](https://github.com/TonyMakhoul1)
+
