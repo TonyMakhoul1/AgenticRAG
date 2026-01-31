@@ -1,44 +1,5 @@
 # 🌱 AgriProof AI: Evidence-Grounded Agricultural Intelligence
 
-<div align="center">
-
-![AgriProof AI](https://img.shields.io/badge/AgriProof-AI-green?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.116-009688?style=for-the-badge&logo=fastapi)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.49-FF4B4B?style=for-the-badge&logo=streamlit)
-![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker)
-
-**An AI-powered system that helps farmers and agricultural researchers access reliable, evidence-based information from large agricultural documents.**
-
-[Features](#-features) • [Architecture](#-architecture) • [Installation](#-installation) • [Usage](#-usage) • [API](#-api-documentation) • [Contributing](#-contributing)
-
-</div>
-
----
-
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-features)
-- [System Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-  - [Local Setup](#local-setup)
-  - [Docker Setup](#docker-setup)
-  - [AWS EC2 Deployment](#aws-ec2-deployment)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
-- [API Documentation](#-api-documentation)
-- [Project Structure](#-project-structure)
-- [How It Works](#-how-it-works)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
-- [Contact](#-contact)
-
----
-
 ## 🎯 Overview
 
 AgriProof AI is an **Agentic RAG (Retrieval-Augmented Generation)** system designed to revolutionize how agricultural knowledge is accessed and utilized. Instead of manually searching through hundreds of pages of agricultural documents or relying on simple keyword searches (Ctrl + F), users can ask natural language questions and receive:
@@ -771,11 +732,6 @@ We welcome contributions from the community! Here's how you can help:
    - Describe your changes
    - Link related issues
 
-### Code Style
-
-- Use **Black** for formatting: `black src/`
-- Use **Flake8** for linting: `flake8 src/`
-- Follow **type hints** where possible
 
 ### Reporting Issues
 
@@ -787,55 +743,6 @@ When reporting bugs, please include:
 - Expected vs actual behavior
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2025 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
-```
-
----
-
-## 🙏 Acknowledgments
-
-This project builds upon amazing open-source technologies:
-
-- **[LlamaIndex](https://www.llamaindex.ai/)** - For the powerful RAG framework
-- **[CrewAI](https://www.crewai.com/)** - For multi-agent orchestration
-- **[ChromaDB](https://www.trychroma.com/)** - For efficient vector storage
-- **[Groq](https://groq.com/)** - For lightning-fast LLM inference
-- **[FastAPI](https://fastapi.tiangolo.com/)** - For the modern API framework
-- **[Streamlit](https://streamlit.io/)** - For the interactive frontend
-- **[HuggingFace](https://huggingface.co/)** - For embeddings models
-
-Special thanks to the agricultural research community for providing valuable knowledge resources.
-
----
-
-## 📧 Contact
-
-**Project Maintainer**: [Your Name]
-
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 🌐 Website: [yourwebsite.com](https://yourwebsite.com)
-
----
-
-## 🌟 Star History
-
-If you find this project useful, please consider giving it a ⭐ on GitHub!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/AgriProof-AI&type=Date)](https://star-history.com/#yourusername/AgriProof-AI&Date)
 
 ---
 
@@ -868,15 +775,6 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 
 <div align="center">
 
-**Made with ❤️ for the Agricultural Community**
-
-If this project helps you or your organization, please consider:
-- ⭐ Starring the repository
-- 🐛 Reporting issues
-- 🤝 Contributing improvements
-- 📢 Sharing with others
-
----
 
 **Happy Farming! 🌾**
 
