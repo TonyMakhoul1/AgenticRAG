@@ -772,10 +772,3 @@ When reporting bugs, please include:
 - 📡 Real-time collaboration features
 
 ---
-
-<div align="center">
-
-
-**Happy Farming! 🌾**
-
-</div>
