@@ -1,0 +1,10 @@
+LLM_CONFIG = {
+    "Question Answer Agent": {
+        "model": "groq/llama-3.3-70b-versatile",
+        "temperature": 0.0,
+    },
+    "Summerizer Agent": {
+        "model": "groq/llama-3.3-70b-versatile",
+        "temperature": 0.0,
+    }
+}
