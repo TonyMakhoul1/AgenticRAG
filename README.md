@@ -305,8 +305,8 @@ Before you begin, ensure you have the following installed:
 
 1. **Launch EC2 Instance**
    - AMI: Ubuntu 22.04 LTS
-   - Instance Type: t3.medium or larger
-   - Storage: 20GB+ EBS volume
+   - Instance Type: g5.xlarge or larger
+   - Storage: 50GB+ EBS volume
    - Security Group: Allow ports 22, 8000, 8501
 
 2. **Connect to Instance**
@@ -342,11 +342,6 @@ Before you begin, ensure you have the following installed:
    - Frontend: `http://your-ec2-ip:8501`
    - API: `http://your-ec2-ip:8000`
 
-6. **Set Up Domain (Optional)**
-   - Configure Route 53 or your DNS provider
-   - Point domain to EC2 elastic IP
-   - Set up NGINX reverse proxy with SSL
-
 ---
 
 ## ⚙️ Configuration
@@ -378,7 +373,7 @@ Edit agent configurations in `src/agents_src/config/agent_settings.py`:
 ```python
 # Example: Adjust retrieval parameters
 TOP_K = 5  # Number of chunks to retrieve
-CHUNK_SIZE = 512  # Size of document chunks
+CHUNK_SIZE = 700  # Size of document chunks
 ```
 
 ---
@@ -606,7 +601,7 @@ AgriProof-AI/
 
 1. Load PDFs from docs_dir/
    ↓
-2. Parse and chunk documents (512 tokens per chunk)
+2. Parse and chunk documents (700 tokens per chunk)
    ↓
 3. Generate embeddings using HuggingFace (BAAI/bge-small-en-v1.5)
    ↓
@@ -673,19 +668,6 @@ AgriProof-AI/
 - Error handling
 
 ---
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-### Ways to Contribute
-
-- 🐛 Report bugs
-- 💡 Suggest new features
-- 📝 Improve documentation
-- 🔧 Submit pull requests
-- 🌍 Add support for more languages
-- 📚 Contribute agricultural documents
 
 ### Development Setup
 
